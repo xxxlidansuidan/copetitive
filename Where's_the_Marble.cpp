@@ -8,7 +8,7 @@ int np[MAX], iteam;
 int main() {
 	int n, q, cs = 0;
 	while (scanf("%d %d", &n, &q) == 2 && (n||q)) {
-		for (int i{0}; i < n; ++i) scanf("%d", &np[i]);
+		for (int i{0}; i < n; ++i) scanf("%d", &np[i]); //array abar input nile replce hoye jay
 		sort(np, np + n); //r sort korleo O(nlogn)
 		printf("CASE# %d:\n", ++cs);
 		while (q--) {
