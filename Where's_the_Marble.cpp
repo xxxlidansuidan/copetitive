@@ -24,7 +24,23 @@ int main() {
 	return 0;
 }
 
-/** By [Vector]:
+By [Vector]:
+
+int main(void)
+{
+  std::vector<int> v{23, 15, 3, 67, 2, 5};
+ 
+  int val = 3;
+ 
+  auto match = std::find(v.begin(), v.end(), val); or find(val);
+ 
+  if(match != v.end()) {
+    std::cout << match - v.begin() << std::endl;
+  } else {
+    std::cout << "not found" << std::endl;
+  }
+
+/** (Or)
                         vector <int>::iterator indx = lower_bound(v.begin(), v.end(), iteam);
                         int pos = indx - v.begin();
                         if (indx == v.end() || *indx != iteam) printf("%d not found\n", iteam);
