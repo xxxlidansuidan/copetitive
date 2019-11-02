@@ -1,5 +1,6 @@
  10784 Diagonal Uva Problem Solution & Full Logic
 https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1725
+from : http://nayeemmollickjoy.blogspot.com/2017/08/10784-diagonal-uva-problem-solution.html
 
 খুবই সহজ একটা সমস্যা , যদি তুমি বিষয়টি ধরতে পারো - তাহলে । চলো , তাহলে শুরু করি --------
 আমরা একটা জিনিস জানি -- সেটা হলো , যদি  N  বাহু  বিশিষ্ট  কোনো  ক্ষেত্র থাকে , তাহলে , সেখানে  
