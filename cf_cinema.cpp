@@ -14,21 +14,16 @@ https://codeforces.com/contest/349/problem/A
         }  
 
 
-   #include<iostream>
+    #include <iostream>
     using namespace std;
-    int n, a25, a50, a;
-    main(){
-    	cin>>n;
-    	for(int i=0; i<n; i++){
-    		cin>>a;
-    	    if(a==25) a25++;
-    	    if(a==50) a50++, a25--;
-    	    if(a==100) {
-               if(a50>0) {a50--; a25--;}
-    	          if(a25<3){cout<<"NO"; return 0;
-          }
-    		
-     
-    }
-    cout<<"YES";
+    int main() {
+    	int n, tmp, x25 = 0, x50 = 0;
+    	cin >> n;
+    	for (int i = 0; i < n; i++) {
+    		cin >> tmp;
+    		if (tmp == 25) x25++;
+    		else {if (tmp == 50) x50++, x25--; else {x25--; if (x50) x50--; else x25 -= 2;}}
+    		if (x25 < 0 or x50 < 0) return cout << "NO\n", 0;
+    	}
+    	cout << "YES\n";
     }
