@@ -24,8 +24,7 @@ https://codeforces.com/contest/349/problem/A
     	    if(a==25) a25++;
     	    if(a==50) {a50++; a25--;}
     	    if(a==100) {if(a50>0){a50--; a25--;}
-    		else a25=a25-3;}
-    		if(a25<0){cout<<"NO"; return 0;}
+    	     if(a25<=3){cout<<"NO"; return 0;}
     		
      
     }
