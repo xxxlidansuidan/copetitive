@@ -16,10 +16,10 @@ https://codeforces.com/contest/349/problem/A
 
    #include<iostream>
     using namespace std;
-    int x,s,b,c,i,n,a,a25,a50,a1,a2,a3,a4;
+    int n, a25, a50, a;
     main(){
     	cin>>n;
-    	for(i=0; i<n; i++){
+    	for(int i=0; i<n; i++){
     		cin>>a;
     	    if(a==25) a25++;
     	    if(a==50) {a50++; a25--;}
