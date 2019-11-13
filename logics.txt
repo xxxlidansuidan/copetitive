@@ -1,1 +1,1 @@
-if you wanna find Max from more than 2 numbers, than you can use Max() function like this: {int mx = Max(a, Max(b, c));}
+if you wanna find Max/Min from more than 2 numbers, than you can use Max()/Min() function like this: {int mx = Max(a, Max(b, c));}
