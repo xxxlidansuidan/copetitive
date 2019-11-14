@@ -1,1 +1,6 @@
 if you wanna find Max/Min from more than 2 numbers, than you can use Max()/Min() function like this: {int mx = Max(a, Max(b, c));}
+
+*এখন আরো কিছু বিষয় লক্ষ রাখতে হবে , আমাদের ---
+
+১)  ২ ছাড়া বাকি সব মৌলিক সংখ্যাই , বিজোড় সংখ্যা ।
+
