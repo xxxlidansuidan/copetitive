@@ -1,6 +1,9 @@
 if you wanna find Max/Min from more than 2 numbers, than you can use Max()/Min() function like this: {int mx = Max(a, Max(b, c));}
+--------------------------------------
+
 "   "    " sum string, or calculat like intiger than----> {int x = str[i]-'0';} just minus by char('0') in java
-{int f = str.charAt(i) - '0';} Or in c++ you can simply do this---->
+{int f = str.charAt(i) - '0';} Or in c++ you can simply do this----> {a += str[i] - str2[i]}
+--------------------------------------
 
 *এখন আরো কিছু বিষয় লক্ষ রাখতে হবে , আমাদের ---
 
