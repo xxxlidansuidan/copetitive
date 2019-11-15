@@ -56,4 +56,12 @@ int main() {
 codeforces 1100 C
 Problem Link :  https://codeforces.com/contest/1100/problem/C
 
-Source Code : SourceCodeLink
+Source Code : here they want R = ? AND we know---> R = (sin(pi/n)*r)/(1-sin(pi/n));
+  So,----------------------->
+
+    #include<bits/stdc++.h>
+    const double pi=acos(-1.0);
+    int main()
+    {int n,r;std::cin>>n>>r;
+    printf("%.7f",(sin(pi/n)*r)/(1-sin(pi/n)));
+    }
