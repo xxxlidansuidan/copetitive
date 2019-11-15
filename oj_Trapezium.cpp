@@ -63,3 +63,21 @@ int main() {
         printf("Case %d: %.7f\n",i,area);
     }
 }
+/*The best method which i derived is
+
+(area of trapezium)
+
+Area =(a+b)/(a-b)×√(s-a)(s-b)(s-b-c)(s-b-d)
+
+Where
+
+S =( a+b+c+d)/2
+
+a = long parallel side
+
+b = short parallel side
+
+c = non parallel side
+
+d = non parallel side
+*/
