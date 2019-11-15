@@ -1,5 +1,5 @@
 Lightoj 1331 Ajent J 
-Problem Link: 
+Problem Link: http://lightoj.com/volume_showproblem.php?problem=1331
 Source Link: http://sajibtalukder2k16.blogspot.com/2019/01/blog-post.html
 
 হৃতিক রোশানের <3 ধুম ২ সিনেমাতে ডায়মন্ড চুরির  দৃশ্যটি অনেকেই দেখেছো । Lightoj এর 1331 নাম্বার প্রবলেমটি একটি ডায়মন্ড চুরি নিয়ে। 
