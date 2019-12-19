@@ -41,7 +41,7 @@ int main () {
                 tmp = y;
                 for (int i = 1; i < 60; i++) {
                         for (int j = 1; j < i; j++) {
-                                if ( i != j && (i*i*i - j*j*j == n) && j < y ) {
+                                if ( i > j && (i*i*i - j*j*j == n) && j < y ) { //say N > 0, so (i > j)
                                         x = i;
                                         y = j;
                                 }
