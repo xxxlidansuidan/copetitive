@@ -1,3 +1,5 @@
+**** UVA 10523 Very Easy!!! ***
+[checkout the formulae, which mean] 
 #include <iostream>
 #include <cmath>
 int main() {
